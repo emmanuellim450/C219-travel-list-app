@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Monoton&family=Quicksand:wght@500;700&display=swap");
 
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -13,8 +15,8 @@ html {
 body {
   font-size: 2.4rem;
   font-family: sans-serif;
-  color: #5a3e2b;
-  font-family: "Quicksand";
+  color: firebrick;
+  font-family: "DotGothic";
   font-weight: 500;
 }
 
@@ -27,8 +29,8 @@ body {
 
 h1 {
   text-align: center;
-  background-color: #f4a226;
-  font-family: "Monoton";
+  background-color: skyblue;
+  font-family: "Quicksand";
   font-size: 8rem;
   text-transform: uppercase;
   font-weight: 400;
@@ -38,7 +40,7 @@ h1 {
 }
 
 .add-form {
-  background-color: #e5771f;
+  background-color: skyblue;
   padding: 2.8rem 0;
   display: flex;
   align-items: center;
@@ -71,8 +73,8 @@ input {
 }
 
 .list {
-  background-color: #5a3e2b;
-  color: #ffebb3;
+  background-color: bisque;
+  color: firebrick;
   padding: 4rem 0;
 
   display: flex;
@@ -112,20 +114,25 @@ input {
 input[type="checkbox"] {
   height: 2rem;
   width: 2rem;
-  accent-color: #e5771f;
+  accent-color: #76c7ad;
 }
 
 .list li button {
   cursor: pointer;
-  background: none;
+  background-color: #76c7ad; 
+  color: #ffebb3; 
   border: none;
+  border-radius: 5px;
   font-size: 1.8rem;
-  padding: 0.8rem;
+  padding: 0.8rem 1.6rem;
   transform: translateY(2px);
+  transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
+
+
 .stats {
-  background-color: #76c7ad;
+  background-color: skyblue;
   text-align: center;
   font-weight: 700;
   padding: 3.2rem 0;
